@@ -40,6 +40,7 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-java-time:0.41.1")
     implementation("com.h2database:h2:2.2.224")
     implementation("com.zaxxer:HikariCP:5.0.1")
+    implementation("ch.qos.logback:logback-classic:1.4.11")
 
     implementation("ch.qos.logback:logback-classic:$logback_version")
     testImplementation("io.ktor:ktor-server-tests-jvm")
